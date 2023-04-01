@@ -23,6 +23,8 @@
 
 Um teste para avaliar o conhecimento técnico do colaborador deste repositório por meio do desenvolvimento de uma API em PHP utilizando o framework laravel com uma rota de consumo que retorna os dados em formato JSON. Também desenvolvendo uma aplicação em ReactJS que consuma a API desenvolvida anteriormente e listar os cards lado a lado.
 
+<img src='./Projeto.jpg' alt="Projeto" width="40%" height="20%">
+
 <p align="right">(<a href="#readme-top">voltar para o topo</a>)</p>
 
 
