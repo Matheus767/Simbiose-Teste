@@ -1,0 +1,11 @@
+openapi: 3.0.0
+paths:
+  /api/projetos:
+    get:
+      description: 'Retorna os projetos consultados no banco de dados'
+      operationId: f885dfc0e3a2f4d37cd1a5f57aa92bd9
+      responses:
+        '200':
+          description: OK
+        '422':
+          description: 'Dados Faltando'

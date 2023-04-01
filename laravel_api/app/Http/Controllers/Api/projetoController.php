@@ -9,9 +9,28 @@ use Illuminate\Http\Request;
 class projetoController extends Controller
 {
     /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
+     * @OA\Get(
+     *     tags={"simbiose"},
+     *     summary="Retorna uma lista com projetos",
+     *     description="Retorna projetos consultados no banco",
+     *     path="/api/projetos",
+     *     @OA\Response(response="200", description="Uma lista com projetos"),
+     * ),
+     * 
+     */
+    /**
+     * @OA\Get(
+     *     path="/api/projetos",
+     *     description="Retorna os projetos consultados no banco de dados",
+     *     @OA\Response(
+     *         response=200,
+     *         description="OK",
+     *     ),
+     *     @OA\Response(
+     *         response=422,
+     *         description="Dados Faltando"
+     *     )
+     * )
      */
     public function index()
     {
